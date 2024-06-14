@@ -4,7 +4,18 @@ body{
     }
 header{
     background-color: #1F2937;
-}
+    display: flex;
+    }
+#headerLogo, ul#navBar{
+    flex-grow: 1;
+    }
+#headerLogo{
+    font-weight: bold;
+    }
+ul#navBar{
+    justify-content: flex-end;
+    gap: 20px;
+    }
 #container{
         }
 #quote{
