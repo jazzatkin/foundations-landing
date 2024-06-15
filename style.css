@@ -133,4 +133,6 @@ footer{
     border: 2px solid #FFFFFF;
     border-radius: 5px;
     padding: 5px 40px;
+    flex-grow: 0;
+    align-self: center;
     }
